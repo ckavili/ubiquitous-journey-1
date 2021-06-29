@@ -17,7 +17,7 @@ applications:
   - name: ubiquitous-journey
     destination: labs-ci-cd
     enabled: true
-    source: https://github.com/petbattle/ubiquitous-journey.git
+    source: https://github.com/ckavili/ubiquitous-journey-1.git
     source_path: ubiquitous-journey/
     source_ref: main
     sync_policy: *sync_policy_true
@@ -25,8 +25,8 @@ applications:
       - values-tooling.yaml
   - name: uj-extras
     destination: labs-ci-cd
-    enabled: true
-    source: https://github.com/petbattle/ubiquitous-journey.git
+    enabled: false
+    source: https://github.com/ckavili/ubiquitous-journey-1.git
     source_path: ubiquitous-journey/
     source_ref: main
     sync_policy: *sync_policy_true
@@ -34,8 +34,8 @@ applications:
       - values-extratooling.yaml
   - name: uj-day2ops
     destination: labs-ci-cd
-    enabled: true
-    source: https://github.com/petbattle/ubiquitous-journey.git
+    enabled: false
+    source: https://github.com/ckavili/ubiquitous-journey-1.git
     source_path: ubiquitous-journey/
     source_ref: main
     sync_policy: *sync_policy_true
